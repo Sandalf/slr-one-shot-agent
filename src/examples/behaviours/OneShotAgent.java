@@ -62,7 +62,7 @@ public class OneShotAgent extends Agent {
                 {2015, 31.94}
             };
     
-            Dataset dataset = new Dataset(inegiData);
+            Dataset dataset = new Dataset(benettonData);
             SimpleLinearRegression slr = new SimpleLinearRegression(dataset);
             slr.printEquation();
             slr.predict(xArg);
